@@ -19,6 +19,10 @@ Accept cryptocurrency payments directly in your Delphi applications. No third-pa
 
 ## Overview
 
+<p align="center">
+  <img src="Preview.png" alt="Crypto Components">
+</p>
+
 Drop-in VCL component suite for accepting cryptocurrency payments. Each coin is a standalone component that monitors the blockchain for incoming transactions matching an exact expected amount. A central engine component coordinates polling across all coins and fires events as payments progress through their lifecycle.
 
 Core capabilities:
