@@ -64,7 +64,7 @@ All blockchain queries use **free public APIs** with no registration, API keys, 
 - `OnPaymentExpired` — payment window closed without receiving funds
 - `OnError` — API or processing error occurred
 
-Events fire both on individual coin components and globally on the engine.
+Events fire both on individual coin components and globally on the engine. Honestly I advise you guys to stick to the Engine Events!
 
 ---
 
