@@ -1,0 +1,49 @@
+package CryptoPaymentComponentsRT;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This SHOULD NOT be floating}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Crypto Payment Components - Runtime Package'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  RESTComponents,
+  IndySystem,
+  IndyProtocols,
+  IndyCore;
+
+contains
+  CPC.Types in '..\Source\CPC.Types.pas',
+  CPC.Coin.Base in '..\Source\CPC.Coin.Base.pas',
+  CPC.Engine in '..\Source\CPC.Engine.pas',
+  CPC.Coin.Bitcoin in '..\Source\CPC.Coin.Bitcoin.pas',
+  CPC.Coin.Ethereum in '..\Source\CPC.Coin.Ethereum.pas',
+  CPC.Coin.Litecoin in '..\Source\CPC.Coin.Litecoin.pas',
+  CPC.Coin.Dogecoin in '..\Source\CPC.Coin.Dogecoin.pas',
+  CPC.Coin.BitcoinCash in '..\Source\CPC.Coin.BitcoinCash.pas';
+
+end.

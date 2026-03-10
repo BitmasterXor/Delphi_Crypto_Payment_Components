@@ -1,0 +1,6 @@
+TCryptoEngine BITMAP "Glyphs\\TCryptoEngine.bmp"
+TBitcoinCoin BITMAP "Glyphs\\TBitcoinCoin.bmp"
+TEthereumCoin BITMAP "Glyphs\\TEthereumCoin.bmp"
+TLitecoinCoin BITMAP "Glyphs\\TLitecoinCoin.bmp"
+TDogecoinCoin BITMAP "Glyphs\\TDogecoinCoin.bmp"
+TBitcoinCashCoin BITMAP "Glyphs\\TBitcoinCashCoin.bmp"
